@@ -7,67 +7,41 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Navbar -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <img src="images/pragya_profile.jpg" alt="Pragya's Profile Picture" class="profile-img">
+        <h1>Looking for Full-time Software Engineer Position</h1>
+        <h2>Technology Stack: Java, Python, React, Node, MySQL, PostgreSQL, MongoDB</h2>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-text">
-            <h1>Hi, I'm Pragya Prashar</h1>
-            <p>Software Engineer | Passionate about Technology and AI</p>
-            <a href="#projects" class="btn">View My Projects</a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
+    <section class="about">
         <h2>About Me</h2>
-        <p>I am a recent graduate from Northeastern University with a Master's degree in Computer Science. I have hands-on experience in Java, Python, React, and various other technologies. I'm passionate about AI and software engineering!</p>
+        <p>I am passionate about software engineering because I love solving complex problems, optimizing performance, and creating impactful applications that enhance user experience. With expertise in full-stack development, cloud technologies, and distributed systems, I strive to build scalable and efficient solutions.</p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>My Projects</h2>
-        <div class="project-cards">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of the project goes here.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of the project goes here.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 3</h3>
-                <p>Description of the project goes here.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to me through my email or LinkedIn.</p>
+    <section class="timeline">
+        <h2>Work Experience</h2>
         <ul>
-            <li><a href="mailto:your-email@example.com">Email</a></li>
-            <li><a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
+            <li>Nok Nok Labs, Inc., San Jose, California (Jan 2024 - Aug 2024)</li>
+            <li>Northeastern University, Boston, Massachusetts (Sept 2023 - Dec 2023)</li>
+            <li>Medvise Corp., Dover, Delaware (Jun 2023 - Aug 2023)</li>
+            <li>ITDose Infosystems Pvt. Ltd., Noida, India (May 2017 - Jun 2017)</li>
         </ul>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Pragya Prashar. All rights reserved.</p>
-    </footer>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:prashar.p@northeastern.edu" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 </body>
 </html>
